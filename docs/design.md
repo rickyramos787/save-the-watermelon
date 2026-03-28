@@ -12,3 +12,6 @@ The target audience is beginner-level players and students learning basic Python
 - If the guessed letter is in the secret word, all matching positions are revealed.
 - If the guessed letter is not in the secret word, the player loses one slice.
 - The player cannot guess the same letter more than once.
+- The player must enter only one alphabetical character at a time.
+- The player wins if all letters in the secret word are revealed before the slices reach 0.
+- The player loses if the slices reach 0 before the word is completed.
