@@ -59,3 +59,6 @@ The player loses when the remaining slice count reaches 0 before finishing the w
 The program will store:
 - **Secret word** as a string
 - **Guessed letters** as a set
+- **Revealed word state** as a generated display string
+- **Remaining slices** as an integer
+- **Word list** as a list of strings
