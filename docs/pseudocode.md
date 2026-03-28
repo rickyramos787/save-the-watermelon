@@ -16,3 +16,5 @@ FUNCTION main
         END WHILE
         SET play_again = answer
     END WHILE
+    DISPLAY goodbye message
+END FUNCTION
