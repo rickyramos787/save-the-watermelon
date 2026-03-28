@@ -22,3 +22,8 @@ The player wins when every letter in the secret word has been guessed correctly.
 
 ### Lose Condition
 The player loses when the remaining slice count reaches 0 before finishing the word.
+
+## Core Features (Must-Have)
+- Random word selection
+- Masked word display
+- Letter-by-letter guessing
