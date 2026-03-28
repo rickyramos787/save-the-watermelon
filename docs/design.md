@@ -70,3 +70,5 @@ Using a set for guessed letters makes it easy to check for duplicates quickly. A
 ### `src/game.py`
 This file will handle the main game loop, player interaction, replay logic, and displaying messages to the user.
 
+### `src/logic.py`
+This file will handle the core game functions, such as checking guesses, revealing letters, validating win conditions, and updating slices.
