@@ -15,3 +15,7 @@ The target audience is beginner-level players and students learning basic Python
 - The player must enter only one alphabetical character at a time.
 - The player wins if all letters in the secret word are revealed before the slices reach 0.
 - The player loses if the slices reach 0 before the word is completed.
+
+## Win and Lose Conditions
+### Win Condition
+The player wins when every letter in the secret word has been guessed correctly.
