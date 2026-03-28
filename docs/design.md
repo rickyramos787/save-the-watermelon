@@ -65,3 +65,8 @@ The program will store:
 
 Using a set for guessed letters makes it easy to check for duplicates quickly. A string list or generated display can be used to show progress after each guess.
 
+## Module Responsibilities
+
+### `src/game.py`
+This file will handle the main game loop, player interaction, replay logic, and displaying messages to the user.
+
