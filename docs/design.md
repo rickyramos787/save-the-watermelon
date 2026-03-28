@@ -83,3 +83,5 @@ Possible functions include:
 - `is_valid_guess(guess, guessed_letters)` - checks whether input is valid
 - `process_guess(secret_word, guess, guessed_letters, slices)` - applies game logic to the guess
 - `is_word_guessed(secret_word, guessed_letters)` - checks for win condition
+- `play_game()` - runs one full round
+- `main()` - starts the program and handles replay
