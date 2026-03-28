@@ -80,3 +80,6 @@ This file will provide the word list and the function used to choose a random se
 Possible functions include:
 - `choose_word()` - selects a random word
 - `display_word(secret_word, guessed_letters)` - returns the masked word display
+- `is_valid_guess(guess, guessed_letters)` - checks whether input is valid
+- `process_guess(secret_word, guess, guessed_letters, slices)` - applies game logic to the guess
+- `is_word_guessed(secret_word, guessed_letters)` - checks for win condition
