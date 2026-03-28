@@ -9,3 +9,7 @@ FUNCTION main
         CALL play_game
         ASK player if they want to play again
         CONVERT answer to lowercase
+        WHILE answer is not "yes" AND answer is not "no"
+            DISPLAY "Please enter yes or no."
+            ASK again
+            CONVERT answer to lowercase
