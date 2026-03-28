@@ -62,3 +62,6 @@ The program will store:
 - **Revealed word state** as a generated display string
 - **Remaining slices** as an integer
 - **Word list** as a list of strings
+
+Using a set for guessed letters makes it easy to check for duplicates quickly. A string list or generated display can be used to show progress after each guess.
+
