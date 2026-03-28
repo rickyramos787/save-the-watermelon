@@ -1,2 +1,2 @@
 # save-the-watermelon
-Childhood "hangman" style game
+Childhood hangman-style game
