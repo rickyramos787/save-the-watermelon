@@ -5,3 +5,10 @@ Save the Watermelon is a terminal-based word guessing game where the player trie
 
 ## Target Audience
 The target audience is beginner-level players and students learning basic Python programming concepts. The game is designed to be easy to understand, easy to run, and simple to play in a terminal window.
+
+## Game Rules
+- The game randomly selects one secret word from a word list.
+- The player guesses one letter at a time.
+- If the guessed letter is in the secret word, all matching positions are revealed.
+- If the guessed letter is not in the secret word, the player loses one slice.
+- The player cannot guess the same letter more than once.
