@@ -72,3 +72,6 @@ This file will handle the main game loop, player interaction, replay logic, and 
 
 ### `src/logic.py`
 This file will handle the core game functions, such as checking guesses, revealing letters, validating win conditions, and updating slices.
+
+### `src/words.py`
+This file will provide the word list and the function used to choose a random secret word.
