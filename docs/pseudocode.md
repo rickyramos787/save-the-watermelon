@@ -18,3 +18,11 @@ FUNCTION main
     END WHILE
     DISPLAY goodbye message
 END FUNCTION
+
+
+## Play One Round
+
+FUNCTION play_game
+    SET secret_word = choose_word()
+    SET guessed_letters = empty set
+    SET slices = 6
