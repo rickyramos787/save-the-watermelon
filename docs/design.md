@@ -45,3 +45,9 @@ The player loses when the remaining slice count reaches 0 before finishing the w
 2. Select a secret word randomly.
 3. Set the number of slices.
 4. Show the masked version of the word.
+5. Ask the player to guess a letter.
+6. Validate the input.
+7. Check whether the letter was already guessed.
+8. If the guess is correct, reveal matching letters.
+9. If the guess is incorrect, subtract one slice.
+10. Check for win or lose condition.
