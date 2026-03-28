@@ -85,3 +85,6 @@ Possible functions include:
 - `is_word_guessed(secret_word, guessed_letters)` - checks for win condition
 - `play_game()` - runs one full round
 - `main()` - starts the program and handles replay
+
+## Scope Control
+The main focus of this project is a clean, working word guessing game that follows all required rules. Stretch features will only be added after the core gameplay, validation, and documentation are complete.
