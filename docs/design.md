@@ -51,3 +51,11 @@ The player loses when the remaining slice count reaches 0 before finishing the w
 8. If the guess is correct, reveal matching letters.
 9. If the guess is incorrect, subtract one slice.
 10. Check for win or lose condition.
+11. Repeat until the player wins or loses.
+12. Ask if the player wants to play again.
+13. End or restart the game.
+
+14. ## Data Design
+The program will store:
+- **Secret word** as a string
+- **Guessed letters** as a set
