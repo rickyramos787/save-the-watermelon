@@ -19,3 +19,6 @@ The target audience is beginner-level players and students learning basic Python
 ## Win and Lose Conditions
 ### Win Condition
 The player wins when every letter in the secret word has been guessed correctly.
+
+### Lose Condition
+The player loses when the remaining slice count reaches 0 before finishing the word.
