@@ -13,3 +13,6 @@ FUNCTION main
             DISPLAY "Please enter yes or no."
             ASK again
             CONVERT answer to lowercase
+        END WHILE
+        SET play_again = answer
+    END WHILE
