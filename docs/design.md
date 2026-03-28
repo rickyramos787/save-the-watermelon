@@ -27,3 +27,21 @@ The player loses when the remaining slice count reaches 0 before finishing the w
 - Random word selection
 - Masked word display
 - Letter-by-letter guessing
+- Slice counter
+- Input validation
+- Repeated guess detection
+- Win/lose detection
+- Replay option
+
+## Stretch Goals (Nice-to-Have)
+- ASCII art showing watermelon slices
+- Difficulty levels
+- Word categories
+- Hint system
+- Scoreboard for multiple rounds
+
+## Basic Game Flow
+1. Start the game.
+2. Select a secret word randomly.
+3. Set the number of slices.
+4. Show the masked version of the word.
