@@ -75,3 +75,8 @@ This file will handle the core game functions, such as checking guesses, reveali
 
 ### `src/words.py`
 This file will provide the word list and the function used to choose a random secret word.
+
+## Function Responsibility Plan
+Possible functions include:
+- `choose_word()` - selects a random word
+- `display_word(secret_word, guessed_letters)` - returns the masked word display
