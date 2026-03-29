@@ -58,3 +58,10 @@ FUNCTION play_game
         DISPLAY secret word
     END IF
 END FUNCTION
+
+
+## Choose a Word
+
+FUNCTION choose_word
+    RETURN one random word from the word list
+END FUNCTION
