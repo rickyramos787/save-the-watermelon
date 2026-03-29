@@ -75,3 +75,11 @@ FUNCTION display_word(secret_word, guessed_letters)
     FOR each letter in secret_word
         IF letter is in guessed_letters
             ADD letter to output
+        ELSE
+            ADD underscore to output
+        END IF
+        ADD space to output
+    END FOR
+
+    RETURN output
+END FUNCTION
