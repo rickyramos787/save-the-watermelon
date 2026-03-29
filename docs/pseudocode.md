@@ -31,6 +31,7 @@ FUNCTION play_game
         DISPLAY current masked word
         DISPLAY guessed letters
         DISPLAY remaining slices
+
         SET guess = prompt_for_guess()
 
         IF guess is already in guessed_letters
