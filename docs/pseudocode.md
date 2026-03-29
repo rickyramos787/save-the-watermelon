@@ -96,3 +96,12 @@ FUNCTION is_word_guessed(secret_word, guessed_letters)
 
     RETURN true
 END FUNCTION
+
+
+## Get a Valid Guess
+
+FUNCTION prompt_for_guess
+    WHILE true
+        ASK player to enter one letter
+        REMOVE extra spaces from input
+        CONVERT input to lowercase
