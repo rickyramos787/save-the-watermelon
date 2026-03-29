@@ -122,3 +122,7 @@ END FUNCTION
 FUNCTION display_guessed_letters(guessed_letters)
     IF guessed_letters is empty
         RETURN "None"
+    ELSE
+        RETURN guessed letters in sorted order
+    END IF
+END FUNCTION
