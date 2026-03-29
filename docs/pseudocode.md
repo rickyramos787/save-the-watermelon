@@ -83,3 +83,10 @@ FUNCTION display_word(secret_word, guessed_letters)
 
     RETURN output
 END FUNCTION
+
+
+## Check for Win
+
+FUNCTION is_word_guessed(secret_word, guessed_letters)
+    FOR each letter in secret_word
+        IF letter is not in guessed_letters
