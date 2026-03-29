@@ -26,3 +26,8 @@ FUNCTION play_game
     SET secret_word = choose_word()
     SET guessed_letters = empty set
     SET slices = 6
+
+    WHILE slices > 0 AND word is not fully guessed
+        DISPLAY current masked word
+        DISPLAY guessed letters
+        DISPLAY remaining slices
