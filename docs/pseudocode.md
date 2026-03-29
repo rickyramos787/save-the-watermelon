@@ -115,3 +115,10 @@ FUNCTION prompt_for_guess
         END IF
     END WHILE
 END FUNCTION
+
+
+## Optional Helper: Show Guessed Letters
+
+FUNCTION display_guessed_letters(guessed_letters)
+    IF guessed_letters is empty
+        RETURN "None"
