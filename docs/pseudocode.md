@@ -37,3 +37,14 @@ FUNCTION play_game
         IF guess is already in guessed_letters
             DISPLAY "You already guessed that letter."
             CONTINUE loop
+        END IF
+
+        ADD guess to guessed_letters
+
+        IF guess is in secret_word
+            DISPLAY "Nice! That letter is in the word."
+        ELSE
+            SUBTRACT 1 from slices
+            DISPLAY "Wrong guess."
+        END IF
+    END WHILE
