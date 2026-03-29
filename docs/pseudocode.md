@@ -105,3 +105,13 @@ FUNCTION prompt_for_guess
         ASK player to enter one letter
         REMOVE extra spaces from input
         CONVERT input to lowercase
+
+        IF input length is not 1
+            DISPLAY "Enter exactly one letter."
+        ELSE IF input is not alphabetical
+            DISPLAY "Enter a letter from A to Z only."
+        ELSE
+            RETURN input
+        END IF
+    END WHILE
+END FUNCTION
