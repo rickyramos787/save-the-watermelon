@@ -48,3 +48,13 @@ FUNCTION play_game
             DISPLAY "Wrong guess."
         END IF
     END WHILE
+
+    DISPLAY final version of the word
+
+    IF word is fully guessed
+        DISPLAY win message
+    ELSE
+        DISPLAY lose message
+        DISPLAY secret word
+    END IF
+END FUNCTION
