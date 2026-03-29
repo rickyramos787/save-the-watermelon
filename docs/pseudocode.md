@@ -65,3 +65,13 @@ END FUNCTION
 FUNCTION choose_word
     RETURN one random word from the word list
 END FUNCTION
+
+
+## Show Masked Word
+
+FUNCTION display_word(secret_word, guessed_letters)
+    SET output = empty string
+
+    FOR each letter in secret_word
+        IF letter is in guessed_letters
+            ADD letter to output
