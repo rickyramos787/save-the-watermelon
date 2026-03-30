@@ -39,3 +39,8 @@ def prompt_play_again():
     """
     while True:
         answer = input("Would you like to play again? (yes/no): ").strip().lower()        
+
+        if answer in ("yes", "no"):
+            return answer
+
+        print("Please enter yes or no.")
