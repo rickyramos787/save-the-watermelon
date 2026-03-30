@@ -15,3 +15,7 @@ def display_word(secret_word, guessed_letters):
     for letter in secret_word:
         if letter in guessed_letters:
             output.append(letter)
+        else:
+            output.append("_")
+
+    return " ".join(output)
