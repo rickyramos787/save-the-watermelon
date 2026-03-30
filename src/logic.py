@@ -66,3 +66,15 @@ def validate_guess(guess, guessed_letters):
         return False, "You already guessed that letter."
 
     return True, ""
+
+
+def process_guess(secret_word, guess, guessed_letters, slices):
+    """
+    Process a guess and return updated values.
+
+    Returns:
+    (message, new_slices)
+
+    Assumes the guess has already been validated.
+    """
+    guessed_letters.add(guess)
