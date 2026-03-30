@@ -12,3 +12,6 @@ from src.logic import (
     validate_guess,
     process_guess,
 )
+
+
+STARTING_SLICES = 6
