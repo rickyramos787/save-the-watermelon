@@ -23,3 +23,10 @@ WORD_LIST = [
     "blueberry",
     "kiwi",
 ]
+
+
+def choose_word():
+    """
+    Return one random word from the word list.
+    """
+    return random.choice(WORD_LIST)
