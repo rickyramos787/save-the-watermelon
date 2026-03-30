@@ -55,3 +55,14 @@ def validate_guess(guess, guessed_letters):
     - must not already be guessed
     """
     guess = guess.strip().lower()
+
+    if len(guess) != 1:
+        return False, "Enter exactly one letter."
+
+    if not guess.isalpha():
+        return False, "Enter a letter from A to Z only."
+
+    if guess in guessed_letters:
+        return False, "You already guessed that letter."
+
+    return True, ""
