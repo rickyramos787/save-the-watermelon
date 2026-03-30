@@ -22,3 +22,12 @@ def prompt_for_guess(guessed_letters):
     Prompt the player until they enter a valid guess.
     Return the valid lowercase letter.
     """
+    while True:
+        guess = input("Guess a letter: ").strip().lower()
+        is_valid, message = validate_guess(guess, guessed_letters)
+
+        if is_valid:
+            return guess
+
+        print(message)
+        
