@@ -48,3 +48,10 @@ def validate_guess(guess, guessed_letters):
 
     Returns a tuple:
     (is_valid, message)
+
+    Rules:
+    - must be exactly one character
+    - must be alphabetical
+    - must not already be guessed
+    """
+    guess = guess.strip().lower()
