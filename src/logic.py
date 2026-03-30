@@ -40,3 +40,11 @@ def display_guessed_letters(guessed_letters):
     if not guessed_letters:
         return "None"
     return ", ".join(sorted(guessed_letters))
+
+
+def validate_guess(guess, guessed_letters):
+    """
+    Validate the player's guess.
+
+    Returns a tuple:
+    (is_valid, message)
