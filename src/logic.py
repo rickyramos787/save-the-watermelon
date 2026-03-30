@@ -78,3 +78,8 @@ def process_guess(secret_word, guess, guessed_letters, slices):
     Assumes the guess has already been validated.
     """
     guessed_letters.add(guess)
+
+    if guess in secret_word:
+        return "Nice! That letter is in the word.", slices
+
+    return "Wrong guess. You lost a slice.", slices - 1
