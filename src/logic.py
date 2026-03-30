@@ -30,3 +30,13 @@ def is_word_guessed(secret_word, guessed_letters):
         if letter not in guessed_letters:
             return False
     return True
+
+
+def display_guessed_letters(guessed_letters):
+    """
+    Return guessed letters in sorted order as a string.
+    Return 'None' if no letters have been guessed.
+    """
+    if not guessed_letters:
+        return "None"
+    return ", ".join(sorted(guessed_letters))
