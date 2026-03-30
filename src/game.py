@@ -30,4 +30,12 @@ def prompt_for_guess(guessed_letters):
             return guess
 
         print(message)
-        
+
+
+def prompt_play_again():
+    """
+    Ask the player whether they want to play again.
+    Return 'yes' or 'no'.
+    """
+    while True:
+        answer = input("Would you like to play again? (yes/no): ").strip().lower()        
