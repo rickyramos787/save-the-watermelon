@@ -65,3 +65,11 @@ def play_game():
         guess = prompt_for_guess(guessed_letters)
         message, slices = process_guess(secret_word, guess, guessed_letters, slices)
         print(message)
+
+    print("\nFinal word:", display_word(secret_word, guessed_letters))
+
+    if is_word_guessed(secret_word, guessed_letters):
+        print("You saved the watermelon! You win!")
+    else:
+        print("The watermelon is out of slices. You lose.")
+        print("The secret word was:", secret_word)
