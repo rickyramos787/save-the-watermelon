@@ -39,3 +39,9 @@ save-the-watermelon/
 - README.md
 - LICENSE
 - .gitignore
+
+## How to Run
+Run the game from the main project folder:
+
+```bash
+python -m src.game
