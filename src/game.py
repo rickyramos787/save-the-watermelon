@@ -61,3 +61,7 @@ def play_game():
         print("\nWord:", display_word(secret_word, guessed_letters))
         print("Guessed letters:", display_guessed_letters(guessed_letters))
         print("Slices remaining:", slices)
+
+        guess = prompt_for_guess(guessed_letters)
+        message, slices = process_guess(secret_word, guess, guessed_letters, slices)
+        print(message)
