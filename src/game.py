@@ -82,3 +82,11 @@ def main():
     while True:
         play_game()
         again = prompt_play_again()
+
+        if again == "no":
+            print("Thanks for playing Save the Watermelon!")
+            break
+
+
+if __name__ == "__main__":
+    main()
