@@ -34,3 +34,8 @@ save-the-watermelon/
   - design.md
   - pseudocode.md
   - test-plan.md
+- tests/
+  - __init__.py
+- README.md
+- LICENSE
+- .gitignore
