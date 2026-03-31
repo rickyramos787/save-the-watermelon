@@ -53,3 +53,6 @@ def play_game():
     secret_word = choose_word()
     guessed_letters = set()
     slices = STARTING_SLICES
+
+    print("\nWelcome to Save the Watermelon!")
+    print("Guess the word one letter at a time before the watermelon runs out of slices.")
