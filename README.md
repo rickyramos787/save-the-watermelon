@@ -22,3 +22,11 @@ Save the Watermelon is a terminal-based word guessing game written in Python. Th
 - The player must enter exactly one alphabetical character.
 - The player wins by guessing the full word before the slices reach 0.
 - The player loses if all slices are gone before the word is guessed.
+
+## Project Structure
+save-the-watermelon/
+- src/
+  - game.py
+  - logic.py
+  - words.py
+  - __init__.py
