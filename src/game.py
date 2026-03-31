@@ -44,3 +44,12 @@ def prompt_play_again():
             return answer
 
         print("Please enter yes or no.")
+
+
+def play_game():
+    """
+    Run one full round of the game.
+    """
+    secret_word = choose_word()
+    guessed_letters = set()
+    slices = STARTING_SLICES
