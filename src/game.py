@@ -56,3 +56,8 @@ def play_game():
 
     print("\nWelcome to Save the Watermelon!")
     print("Guess the word one letter at a time before the watermelon runs out of slices.")
+
+    while slices > 0 and not is_word_guessed(secret_word, guessed_letters):
+        print("\nWord:", display_word(secret_word, guessed_letters))
+        print("Guessed letters:", display_guessed_letters(guessed_letters))
+        print("Slices remaining:", slices)
