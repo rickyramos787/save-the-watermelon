@@ -30,3 +30,7 @@ save-the-watermelon/
   - logic.py
   - words.py
   - __init__.py
+- docs/
+  - design.md
+  - pseudocode.md
+  - test-plan.md
