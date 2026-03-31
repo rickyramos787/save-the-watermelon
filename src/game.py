@@ -73,3 +73,12 @@ def play_game():
     else:
         print("The watermelon is out of slices. You lose.")
         print("The secret word was:", secret_word)
+
+
+def main():
+    """
+    Start the program and handle replay.
+    """
+    while True:
+        play_game()
+        again = prompt_play_again()
