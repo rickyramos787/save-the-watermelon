@@ -37,3 +37,7 @@ the input and displays an error message.
 ### Test Case 8: Correct Guess
 **Action:** Enter a letter that is in the secret word  
 **Expected Result:** The letter is revealed in all correct positions and slices do not decrease.
+
+### Test Case 9: Incorrect Guess
+**Action:** Enter a letter that is not in the secret word  
+**Expected Result:** A message is displayed and the slice count decreases by 1.
