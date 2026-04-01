@@ -53,3 +53,7 @@ the input and displays an error message.
 ### Test Case 12: Replay With Yes
 **Action:** After the game ends, enter `yes`  
 **Expected Result:** A new round starts.
+
+### Test Case 13: Replay With No
+**Action:** After the game ends, enter `no`  
+**Expected Result:** The program ends with a goodbye message.
