@@ -33,3 +33,7 @@ the input and displays an error message.
 ### Test Case 7: Repeated Guess
 **Action:** Enter a valid letter, then enter the same letter again  
 **Expected Result:** The second guess is rejected with a repeated guess message.
+
+### Test Case 8: Correct Guess
+**Action:** Enter a letter that is in the secret word  
+**Expected Result:** The letter is revealed in all correct positions and slices do not decrease.
