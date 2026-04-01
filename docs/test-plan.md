@@ -16,3 +16,7 @@ The purpose of this test plan is to verify that Save the Watermelon works correc
 ### Test Case 3: Number Input
 **Action:** Enter a number, such as `4`  
 **Expected Result:** The program rejects the input and displays an error message.
+
+### Test Case 4: Symbol Input
+**Action:** Enter a symbol, such as `@`  
+**Expected Result:** The program rejects the input and displays an error message.
