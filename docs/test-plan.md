@@ -45,3 +45,7 @@ the input and displays an error message.
 ### Test Case 10: Win Condition
 **Action:** Guess all letters in the secret word before slices reach 0  
 **Expected Result:** The program displays a win message.
+
+### Test Case 11: Lose Condition
+**Action:** Continue making incorrect guesses until slices reach 0  
+**Expected Result:** The program displays a lose message and shows the secret word.
