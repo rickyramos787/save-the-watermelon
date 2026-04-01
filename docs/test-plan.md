@@ -29,3 +29,7 @@ the input and displays an error message.
 ### Test Case 6: Blank Input
 **Action:** Press Enter without typing a letter  
 **Expected Result:** The program rejects the input and displays an error message.
+
+### Test Case 7: Repeated Guess
+**Action:** Enter a valid letter, then enter the same letter again  
+**Expected Result:** The second guess is rejected with a repeated guess message.
