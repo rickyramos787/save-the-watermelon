@@ -49,3 +49,7 @@ the input and displays an error message.
 ### Test Case 11: Lose Condition
 **Action:** Continue making incorrect guesses until slices reach 0  
 **Expected Result:** The program displays a lose message and shows the secret word.
+
+### Test Case 12: Replay With Yes
+**Action:** After the game ends, enter `yes`  
+**Expected Result:** A new round starts.
