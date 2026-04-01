@@ -57,3 +57,7 @@ the input and displays an error message.
 ### Test Case 13: Replay With No
 **Action:** After the game ends, enter `no`  
 **Expected Result:** The program ends with a goodbye message.
+
+### Test Case 14: Invalid Replay Input
+**Action:** After the game ends, enter something other than `yes` or `no`  
+**Expected Result:** The program asks the player to enter yes or no.
