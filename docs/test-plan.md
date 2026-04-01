@@ -24,3 +24,8 @@ The purpose of this test plan is to verify that Save the Watermelon works correc
 ### Test Case 5: Multiple Characters
 **Action:** Enter more than one character, such as `ab`  
 **Expected Result:** The program rejects the input and displays an error message.
+the input and displays an error message.
+
+### Test Case 6: Blank Input
+**Action:** Press Enter without typing a letter  
+**Expected Result:** The program rejects the input and displays an error message.
