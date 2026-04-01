@@ -61,3 +61,9 @@ the input and displays an error message.
 ### Test Case 14: Invalid Replay Input
 **Action:** After the game ends, enter something other than `yes` or `no`  
 **Expected Result:** The program asks the player to enter yes or no.
+
+## Testing Summary
+The game was manually tested for:
+- valid inputs
+- invalid inputs
+- repeated guesses
