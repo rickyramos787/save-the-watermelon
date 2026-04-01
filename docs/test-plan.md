@@ -8,3 +8,7 @@ The purpose of this test plan is to verify that Save the Watermelon works correc
 ### Test Case 1: Valid Lowercase Input
 **Action:** Enter one lowercase letter, such as `a`  
 **Expected Result:** The guess is accepted and processed correctly.
+
+### Test Case 2: Valid Uppercase Input
+**Action:** Enter one uppercase letter, such as `B`  
+**Expected Result:** The input is converted to lowercase and processed correctly.
