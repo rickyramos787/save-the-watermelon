@@ -41,3 +41,7 @@ the input and displays an error message.
 ### Test Case 9: Incorrect Guess
 **Action:** Enter a letter that is not in the secret word  
 **Expected Result:** A message is displayed and the slice count decreases by 1.
+
+### Test Case 10: Win Condition
+**Action:** Guess all letters in the secret word before slices reach 0  
+**Expected Result:** The program displays a win message.
