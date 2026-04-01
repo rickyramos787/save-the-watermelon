@@ -20,3 +20,7 @@ The purpose of this test plan is to verify that Save the Watermelon works correc
 ### Test Case 4: Symbol Input
 **Action:** Enter a symbol, such as `@`  
 **Expected Result:** The program rejects the input and displays an error message.
+
+### Test Case 5: Multiple Characters
+**Action:** Enter more than one character, such as `ab`  
+**Expected Result:** The program rejects the input and displays an error message.
