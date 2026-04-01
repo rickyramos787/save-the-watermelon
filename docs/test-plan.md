@@ -67,3 +67,8 @@ The game was manually tested for:
 - valid inputs
 - invalid inputs
 - repeated guesses
+- correct and incorrect guesses
+- win and lose conditions
+- replay behavior
+
+These tests confirm that the program meets the core functional requirements of the project.
